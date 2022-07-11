@@ -29,4 +29,24 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 	git clone git@github.com:charles809/grepos.git
 4、查看当前分支信息：git branch -a
 5、获取当前仓库的另一远程分支：git checkout -b feature-D origin/feature-D
+
+网站给出的标准流程
+
+…or create a new repository on the command line
+
+echo "# gitNotability" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/charles809/gitNotability.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/charles809/gitNotability.git
+git branch -M main
+git push -u origin main
+
 # gitNotability
