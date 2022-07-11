@@ -29,3 +29,4 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 	git clone git@github.com:charles809/grepos.git
 4、查看当前分支信息：git branch -a
 5、获取当前仓库的另一远程分支：git checkout -b feature-D origin/feature-D
+# gitNotability
