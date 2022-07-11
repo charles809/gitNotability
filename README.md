@@ -34,7 +34,7 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 …or create a new repository on the command line
 
-echo "# gitNotability" >> README.md
+echo "# gitNotability" >> README.md #把语句加入文件末尾
 git init
 git add README.md
 git commit -m "first commit"
