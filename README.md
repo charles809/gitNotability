@@ -58,3 +58,5 @@ git branch -M main
 git push -u origin main
 
 # gitNotability
+
+被Thinkpad P50上的Linux克隆
