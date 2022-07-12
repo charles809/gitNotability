@@ -8,7 +8,10 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 1、下载相关软件，如：git、GitHub Desktop
 2、安装上述软件
-3、在github上注册账号
+3、在git上注册账号
+3、做全局设置
+	git config --global user.name "charles809"
+	git config --global user.email "charles809@sina.com"
 4、在本地生成SSH Keys，并将id_rsa.pub文件注册到github账户设置中
 	ssh-keygen -t rsa -C "charles809@sina.com"
 5、GitHub认证通信
