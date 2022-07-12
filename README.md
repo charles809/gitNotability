@@ -23,15 +23,20 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 10、使用git add命令将代码文件提交至暂存区
 11、使用git push命令将代码文件加入到仓库
 
-使用git的实际操作
-1、添加远程仓库：git remote add
+使用git的实际操作（完成基本步骤1-5之后）
+0、在GitHub上建立远程仓库
+1、建立本地文件夹
+2、进入刚建立的文件夹
+3、初始化本地仓库
+4、确认本地仓库的分支名称
+5、设置本地仓库的远程仓库：git remote add
 	git remote add origin git@github.com:charles809/grepos.git
-2、推送至远程仓库：git push
+6、推送至远程仓库：git push
 	git push -u origin master
-3、获取远程仓库：git clone
+7、获取远程仓库：git clone
 	git clone git@github.com:charles809/grepos.git
-4、查看当前分支信息：git branch -a
-5、获取当前仓库的另一远程分支：git checkout -b feature-D origin/feature-D
+8、查看当前分支信息：git branch -a
+9、获取当前仓库的另一远程分支：git checkout -b feature-D origin/feature-D
 
 网站给出的标准流程
 
